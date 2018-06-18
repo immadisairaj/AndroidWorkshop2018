@@ -1,0 +1,21 @@
+Interface
+
+Multiple Inheritence (Like)
+public class ..... implements ...., ....., ...., .....{
+	
+}
+
+We can even have
+public class ChildClass extends ParentClass implements A, B, C{
+	
+}
+
+To be implemented (Inference)
+public inference A{
+	
+}
+1. Abstract methods are public and abstract by default.
+2. All variables are public static final.
+3. All the abstract methods defined in an interface NEED to be implemented.
+4. default, static  [java 8+]
+   private			[java 9+]

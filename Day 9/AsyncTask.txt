@@ -1,0 +1,16 @@
+similar to thread
+can be used instead of thread in android as thread is in java
+
+
+AsyncTask < Params, Progress, Result >
+
+onPreExecute()
+doInBackground()
+onPostExecute()
+
+
+
+Result doInBackground( params[] params ) {
+    
+    return new Result();
+}

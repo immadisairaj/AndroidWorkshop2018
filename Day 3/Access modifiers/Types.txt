@@ -1,0 +1,6 @@
+Types of Access Modifiers
+
+1.private   (only inside the class)
+2.default   (in directory in same package)
+3.protected (different package in same directory)
+4.public    (outside everything)

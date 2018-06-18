@@ -1,0 +1,12 @@
+2 Types
+
+1>  Normal       Donot show dialogue for permission, but still necessary
+2>  Dangerous    Shows dialogue for permission    (8 types
+							File Access
+							Phone
+							Messages
+							Location
+							Microphone
+							Calender
+							Contacts
+							Camera)

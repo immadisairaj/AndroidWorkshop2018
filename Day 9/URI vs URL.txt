@@ -1,0 +1,7 @@
+URI v/s URL
+
+www.google.com    is URI
+
+https://www.google.com    is URL
+
+URL has protocol and URI donot

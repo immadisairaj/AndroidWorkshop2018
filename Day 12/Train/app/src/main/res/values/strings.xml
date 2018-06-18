@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Train</string>
+    <string name="live_train_status">Live Train Status</string>
+    <string name="pnr_status">PNR Status</string>
+</resources>

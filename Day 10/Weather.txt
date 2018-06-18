@@ -1,0 +1,7 @@
+Continuation of weather in android studio
+from Day 9
+
+
+call execute in onStart
+
+then GPS

@@ -1,0 +1,6 @@
+for appending String
+
+StringBuffer buffer = new StringBuffer();
+
+we can input like buffer.append(" ");
+.....

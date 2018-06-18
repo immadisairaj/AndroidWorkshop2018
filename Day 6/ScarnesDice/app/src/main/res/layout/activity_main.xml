@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/change_players_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="For Two Players Press this Button" />
+
+        <Button
+            android:id="@+id/change_players"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="changePlayerClick"
+            android:text="Players" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/players_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Score : 0 Computer Score : 0" />
+
+    <TextView
+        android:id="@+id/turnScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/dice_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dice1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/roll_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="rollButtonClick"
+            android:text="ROLL" />
+
+        <Button
+            android:id="@+id/hold_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="holdButtonClick"
+            android:text="HOLD" />
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="resetButtonClick"
+            android:text="RESET" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/winner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="\nInstructions :\n\n
+
+Scarne’s Dice is a turn-based dice game where players score points by rolling a die and then:\n\n
+
+if they roll a 1, score no points and lose their turn\n
+if they roll a 2 to 6: add the rolled value to their points choose to either reroll or keep their score and end their turn.\n\n
+
+The winner is the first player that reaches (or exceeds) 100 points." />
+
+</LinearLayout>

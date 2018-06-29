@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Scarne\'s Dice</string>
+    <string name="for_two_players_press_this_button">For Two Players Press this Button</string>
+    <string name="players">Players</string>
+    <string name="your_score_0_computer_score_0">Your Score : 0 Computer Score : 0</string>
+    <string name="roll">ROLL</string>
+    <string name="hold">HOLD</string>
+    <string name="instructions">Instructions :\n\n   Scarne’s Dice is a turn-based dice game where players score points by rolling a die and then:\n\n   if they roll a 1, score no points and lose their turn\n  if they roll a 2 to 6: add the rolled value to their points choose to either reroll or keep their score and end their turn.\n\n   The winner is the first player that reaches (or exceeds) 100 points.</string>
+    <string name="reset">RESET</string>
 </resources>

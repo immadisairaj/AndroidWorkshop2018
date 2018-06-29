@@ -11,17 +11,17 @@
 
         <TextView
             android:id="@+id/change_players_text"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="For Two Players Press this Button" />
+            android:text="@string/for_two_players_press_this_button" />
 
         <Button
             android:id="@+id/change_players"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="changePlayerClick"
-            android:text="Players" />
+            android:text="@string/players" />
     </LinearLayout>
 
     <TextView
@@ -34,7 +34,7 @@
         android:id="@+id/score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your Score : 0 Computer Score : 0" />
+        android:text="@string/your_score_0_computer_score_0" />
 
     <TextView
         android:id="@+id/turnScore"
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="rollButtonClick"
-            android:text="ROLL" />
+            android:text="@string/roll" />
 
         <Button
             android:id="@+id/hold_button"
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="holdButtonClick"
-            android:text="HOLD" />
+            android:text="@string/hold" />
 
         <Button
             android:id="@+id/reset_button"
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="resetButtonClick"
-            android:text="RESET" />
+            android:text="@string/reset" />
 
     </LinearLayout>
 
@@ -82,18 +82,17 @@
         android:id="@+id/winner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
-    <TextView
-        android:id="@+id/textView2"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="\nInstructions :\n\n
+        android:layout_height="wrap_content">
 
-Scarne’s Dice is a turn-based dice game where players score points by rolling a die and then:\n\n
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="@string/instructions" />
 
-if they roll a 1, score no points and lose their turn\n
-if they roll a 2 to 6: add the rolled value to their points choose to either reroll or keep their score and end their turn.\n\n
-
-The winner is the first player that reaches (or exceeds) 100 points." />
+    </ScrollView>
 
 </LinearLayout>
